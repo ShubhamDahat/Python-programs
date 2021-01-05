@@ -1,0 +1,5 @@
+# Programs on conditional statements
+favorite_fruit = ["Mango", "Orange", "Apple"]
+fruit = input("Enter your favorite fruit: ")
+if fruit.title() in favorite_fruit:
+    print(f"You really like {fruit.title()}")
