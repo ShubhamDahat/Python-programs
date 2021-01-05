@@ -1,0 +1,6 @@
+# Programs on conditional statements
+alien_color = input("Enter alien color that has been shot: ")
+if alien_color.title() == 'Green':
+    print("Player just earned 5 points.")
+else:
+    print("Player earned zero points.")
