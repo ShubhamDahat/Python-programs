@@ -1,0 +1,8 @@
+# Programs on conditional statements
+current_users = ['adwait', 'tejas', 'sourabh', 'pranav']
+new_users = ['nikhil', 'sourabh', 'omkar','mohit']
+for name in new_users:
+    if name in current_users:
+        print(f"{name.title()} should change User-name!")
+    else:
+        print(f"{name.title()} is unique and hence accepted!")
