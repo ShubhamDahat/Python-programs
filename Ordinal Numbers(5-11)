@@ -1,0 +1,17 @@
+# Programs on conditional statements
+n = int(input('How many numbers in the list: '))
+number_list = []
+for i in range(0,n):
+    j = i + 1
+    number_list.append(int(input(f"Number {j} of the list: ")))
+
+
+for num in number_list:
+    if num == 1:
+        print(f"{num}st")
+    elif num == 2:
+        print(f"{num}nd")
+    elif num == 3:
+        print(f"{num}rd")
+    else:
+        print(f"{num}th")
