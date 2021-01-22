@@ -1,0 +1,5 @@
+# Programs on dictionaries
+me = {'first_name': 'Kyle','last_name':'Chan', 'age': 25}
+print(f"My first name is {me['first_name']}")
+print(f"My last name is {me['last_name']}")
+print(f"My age is {me['age']}")
