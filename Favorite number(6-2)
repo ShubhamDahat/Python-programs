@@ -1,0 +1,4 @@
+# Programs on dictionaries
+favorite_number = {'Ramesh': 2, 'Suresh': 6, 'Mukesh': 7}
+for i,value in favorite_number.items():
+    print(f"{i}'s favorite number is {value}")
