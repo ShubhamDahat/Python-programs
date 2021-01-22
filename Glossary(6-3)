@@ -1,0 +1,13 @@
+# Programs on dictionaries
+# Glossary of some of the functions of python.
+glossary = {
+    'print()': 'Prints any input string or value of variable in String format.',
+    'int()': 'converts any data to integer value.',
+    'input()': 'Takes input from user.',
+    'if': 'Conditional statement.',
+    'else': 'Counter-part of if.',
+    'for': 'Used for iterations over list, dictionary or general using range function.'}
+
+for k,v in glossary.items():
+    print(f'{k} function:'
+          f'\n {v}\n')
