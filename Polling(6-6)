@@ -1,0 +1,13 @@
+# Programs on dictionaries
+favorite_languages = { 'jen': 'python',
+                       'sarah': 'c',
+                       'edward': 'ruby',
+                       'phil': 'python'}
+
+new_memebers = ['sourabh', 'edward', 'adwait']
+
+for members in new_memebers:
+    if members in favorite_languages:
+        print(f"Dear {members.title()}, Thank you for registering, but you have been registered already.")
+    else:
+        print(f"Dear {members.title()}, Thank you for the information.")
