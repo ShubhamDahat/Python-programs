@@ -1,0 +1,9 @@
+# Programs on dictionaries
+favorite_places = {'Sourabh' : ['Madrid', 'Stockholm', 'Kiruna'],
+                   'Akshay' : ['Turku', 'Istanbul', 'New York'],
+                   'Gokul' : ['Goa', 'Maldives', 'Amsterdam']}
+
+for person,place in favorite_places.items():
+    print(f'''\n{person}'s favorite palces to visit are:''')
+    for city in place:
+        print(f"\t{city}")
