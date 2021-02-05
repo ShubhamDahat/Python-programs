@@ -1,0 +1,9 @@
+# Programs on dictionaries
+moti = {'type' : 'dog', 'owner': 'Sarita', 'name': 'moti'}
+sakura = {'type': 'cat', 'owner' : 'hinata', 'name': 'sakura'}
+shanock = {'type': 'fox', 'owner' : 'jinton', 'name': 'shanock' }
+
+pets = [moti, sakura, shanock]
+
+for pet in pets:
+    print(f'''\n{pet['name'].title()} is a {pet['type']} and owner is {pet['owner'].title()}''')
