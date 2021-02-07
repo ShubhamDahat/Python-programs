@@ -1,0 +1,16 @@
+# Programs on dictionaries
+cities = {'Mumbai': {'country': 'India',
+                     'population':'18.41 M',
+                     'fact': 'Financial capital of India`'},
+          'Amsterdam': {'country': 'Netherlands',
+                        'population':'821,000',
+                        'fact': 'Capital city of Netherlands'},
+          'Paris': {'country': 'France',
+                    'population': '2.16 M',
+                    'fact': 'Capital city of France'}
+          }
+
+for city,info in cities.items():
+    print(f"\nFacts about {city} are:")
+    for k,v in info.items():
+        print(f"{k.title()} is {v}")
