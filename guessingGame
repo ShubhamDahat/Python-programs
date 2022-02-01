@@ -1,0 +1,17 @@
+import random
+
+
+
+def guess():
+    a = 1
+    b = 10
+    x = random.randint(a, b)
+    y = 0
+    while y != x:
+        y = int(input(f"Guess a number between {a} to {b}: "))
+        if y > (b - x)/2:
+            print("The guess is too high.")
+        elif y < (x - a)/2:
+            print("the guess is too low.")
+
+    print(f"You guess the numbre correctly which is {y}")
